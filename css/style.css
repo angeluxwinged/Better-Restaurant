@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f0f0 !important;
+}
+
+/*menu nav*/
+.nav nav{
+    width: 100%;
+}
+
+.nav a{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.nav a:hover{
+    background: gray;
+}
+
+/*index*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.main-content{
+    color: white;
+    border-color: #e82;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 4px;
+    margin: 30px;
+    height: 720px;
+    max-width: 650px;
+    text-align: center;
+    padding: 20px;
+    background: black;
+}
+
+.main-content h2{
+        margin-top: 50px;
+}
+
+.main-content a{
+    color: #e82;
+    text-decoration: none;
+}
+
+.main-content a:hover {
+  color: red;
+}
+
+.main-content button{
+     background-color: transparent;
+     border: none;
+}
+
+.btn-facebook img{
+    width: 40px;
+    height: 40px;
+}
+
+.main-content:hover{
+    max-width: 652px;
+    border-width: 4px;
+    margin-top: 25px;
+    box-shadow: 1px 2px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+/*cards*/
+.card-container{
+    display: grid;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}  
+
+.card:hover{
+    box-shadow: 1px 2px 4px 7px rgba(0, 0, 0, 0.3);
+    width: 502px;
+    border-width: 3px !important;
+    margin-top: 5px;
+}
+
+.card p{
+    padding: 5px 25px 5px 25px;
+}
+
+.precios p{
+     font-size: 20px;
+}
+
+.card h3{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.card img{
+    margin-top: 15px;
+    align-self: center;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: white;
+}
+
+.card a{
+    color: #e82;
+    text-decoration: none;
+}
+
+.card a:hover{
+    color: red;
+}
+
+.card{
+    width: 500px;
+    height: 700px;
+    margin: 10px;
+    border: solid;
+    text-align: center;
+    color: white;
+    background-color: black !important;
+    border-color: #e82 !important;
+    border-width: 2px !important;
+}
