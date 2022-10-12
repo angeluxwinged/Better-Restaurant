@@ -20,7 +20,7 @@
 
 	       		<ul class="navbar-nav mb-2 mb-lg-0 me-auto">
 	        		<li class="nav-item">
-	        			<a class="nav-link active" aria-current="page" href="../index.php">Better Restaurant</a>
+	        			<a class="nav-link active" aria-current="page" href="../index.php">Better alv Restaurant</a>
 	        		</li>
 
 	        		<li class="nav-item">
